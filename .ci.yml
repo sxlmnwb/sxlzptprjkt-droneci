@@ -1,8 +1,13 @@
+#
+# // Copyright (C) 2021 Jody Yuantoro (xyzuan) Aarch64
+# // Copyright (C) 2022 Salman Wahib (sxlmnwb) x86_64
+#
+
 kind: pipeline
 name : LLVM Toolchain Compiler
 version: rev1.5_template
 steps:
- - name: LLVM-tc Compilation
+ - name: LLVM Toolchain Compiler
    image: xyzuan/xdocker:latest
    environment:
      LLVM_NAME:
