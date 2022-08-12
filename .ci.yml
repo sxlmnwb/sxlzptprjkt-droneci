@@ -7,7 +7,7 @@ kind: pipeline
 name : LLVM Toolchain Compiler
 version: rev1.5_template
 steps:
- - name: LLVM Toolchain Compiler
+ - name: Started Compiling Clang
    image: xyzuan/xdocker:latest
    environment:
      LLVM_NAME:
